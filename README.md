@@ -1,7 +1,9 @@
 # Hi there, I"m Jinsei 👋
 
 
-[![Website](https://www.jinsei-makino.com/OGP.png)](https://www.jinsei-makino.com/)
+<a href="https://www.jinsei-makino.com/">
+  <img src="https://www.jinsei-makino.com/OGP.png" width="600">
+</a>
 
 ## Links
 
