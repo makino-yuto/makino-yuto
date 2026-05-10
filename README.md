@@ -1,4 +1,4 @@
-# Hi there, I"m jinsei 👋
+# Hi there, I"m Jinsei 👋
 
 
 ## Links
