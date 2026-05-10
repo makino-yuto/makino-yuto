@@ -7,7 +7,7 @@
   https://www.jinsei-makino.com/
 
 * note
-  https://note.com/asya1793
+  https://note.com/jinsei_makino
 
 * YouTube
   https://www.youtube.com/@zinseich
