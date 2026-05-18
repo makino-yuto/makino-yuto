@@ -3,7 +3,7 @@
 
 <a href="https://www.jinsei-makino.com/">
   <img src="https://www.jinsei-makino.com/OGP.png" width="400">
-</a>  
+</a><br>
 ↑WebSite
 
 ## Links
