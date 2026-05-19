@@ -1,4 +1,4 @@
-# Hi there, I"m Jinsei 👋
+# どうも人生です
 
 
 <a href="https://www.jinsei-makino.com/">
