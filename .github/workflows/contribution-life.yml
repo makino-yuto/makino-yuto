@@ -1,0 +1,26 @@
+name: contribution-life
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: satomasahiro2005/contribution-life@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git checkout --orphan output
+          git rm -rf . >/dev/null 2>&1 || true
+          mv dist/*.svg .
+          git add ./*.svg && git commit -m "contribution-life $(date -u +%F)"
+          git push -f origin output
